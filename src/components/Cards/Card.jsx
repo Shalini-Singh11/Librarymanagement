@@ -41,7 +41,7 @@ const DashboardInfo = () => {
   }, []);
 
   if (loading) {
-    return <CircularProgress />;
+    return <CircularProgress /> ;
   }
 
   const mappedData = dashboardData
